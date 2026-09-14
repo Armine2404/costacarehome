@@ -1,0 +1,34 @@
+<svg width="600" height="220" viewBox="0 0 600 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGradient" x1="30" y1="20" x2="220" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#1F9D8D"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="120" y1="20" x2="210" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7C873"/>
+      <stop offset="1" stop-color="#E59B2A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="220" rx="28" fill="#F6FBFA"/>
+
+  <g transform="translate(26 26)">
+    <circle cx="84" cy="84" r="78" fill="url(#brandGradient)"/>
+
+    <path d="M46 92L84 56L122 92V121C122 126.523 117.523 131 112 131H56C50.4772 131 46 126.523 46 121V92Z" fill="#F7F9FB"/>
+    <path d="M61 89H107L84 70L61 89Z" fill="url(#goldAccent)"/>
+
+    <path d="M96 104H112V131H88V118H80V131H68V104H84V92H96V104Z" fill="#0F766E" fill-opacity="0.85"/>
+
+    <path d="M112 72C112 72 121 60 131 60C140 60 148 67 148 76C148 94 131 99 131 99C131 99 114 94 114 76C114 72 117 72 112 72Z" fill="url(#goldAccent)"/>
+
+    <path d="M133 64L146 75L133 87L120 75L133 64Z" fill="#FFF6E3"/>
+  </g>
+
+  <g transform="translate(220 72)">
+    <text x="0" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#0F172A" letter-spacing="0.5">CostaCare</text>
+    <text x="0" y="82" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#0F172A" letter-spacing="0.5">Home</text>
+    <line x1="2" y1="100" x2="286" y2="100" stroke="#D7DDE3" stroke-width="2"/>
+    <text x="0" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#5C6B73" letter-spacing="4">CLEANING • PROPERTY CARE</text>
+  </g>
+</svg>
